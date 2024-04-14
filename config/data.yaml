@@ -1,0 +1,7 @@
+train: F:\Ineuron\Deep Learning\industry safety\Industry-Safety-Detection-using-Yolov8\artifacts\datasets\train\images
+val: F:\Ineuron\Deep Learning\industry safety\Industry-Safety-Detection-using-Yolov8\artifacts\datasets\test\images
+
+
+nc: 5
+
+names: [ 'Helmet','Goggles','Jacket' ,'Gloves' ,'Footwear']

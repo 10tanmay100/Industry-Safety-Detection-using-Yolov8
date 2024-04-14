@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Upload Image</title>
+</head>
+<body>
+    <div class="upload-container">
+        <h1>Upload an image</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required>
+            <input type="submit" value="Detect Objects">
+        </form>
+    </div>
+</body>
+</html>

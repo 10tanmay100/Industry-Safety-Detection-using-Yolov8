@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Detection Results</title>
+</head>
+<body>
+    <div class="detection-container">
+        <h1>Detected Image</h1>
+        <!-- Display the image with detections -->
+        <img src="{{ url_for('static', filename='detections/image0.jpg') }}" alt="Detected Image">
+        <div>
+            <a href="/">Upload Another Image</a>
+        </div>
+    </div>
+</body>
+</html>
