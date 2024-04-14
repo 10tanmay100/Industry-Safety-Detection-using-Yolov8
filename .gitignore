@@ -95,7 +95,7 @@ ipython_config.py
 #Pipfile.lock
 yolo_env
 artifacts
-.github
+
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
